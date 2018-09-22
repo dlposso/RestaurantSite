@@ -1,0 +1,35 @@
+header, footer {
+	text-align: center;
+}
+
+/*article {
+	text-align: center;
+	float: left;
+}*/
+
+
+body {
+	
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: monospace;
+}
+
+.homepageContent {
+	background-color: #D2F4CE;
+	padding: 15px 0px 15px 0px;
+}
+
+nav a:visited {
+	color: orange;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+nav a:active {
+	text-decoration: none; /*Not quite right yet*/
+}
