@@ -1,3 +1,9 @@
+/*
+Name: David Posso
+Date Created: 9/16/2018 
+Most recent revision: 9/21/2018
+*/
+
 header, footer {
 	text-align: center;
 }
@@ -14,16 +20,16 @@ body {
 }
 
 h1 {
-	font-family: monospace;
+	font-family: monospace, serif;
 }
 
-.homepageContent {
+.pageContent {
 	background-color: #D2F4CE;
-	padding: 15px 0px 15px 0px;
+	padding: 25px 0px 15px 0px;
 }
 
 nav a:visited {
-	color: orange;
+	color: #007900;
 }
 
 nav a:hover {
@@ -32,4 +38,29 @@ nav a:hover {
 
 nav a:active {
 	text-decoration: none; /*Not quite right yet*/
+}
+
+.description {
+	margin: auto;
+	width: 35%;
+}
+
+nav .btn {
+	background-color: #d2f4ce;
+	color: white; 
+}
+nav {
+	border-top: thin #286122 solid;
+	border-bottom: thin #286122 solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+form {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+footer{
+	border-top: thin #286122 solid;
 }
