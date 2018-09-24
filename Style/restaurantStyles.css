@@ -1,21 +1,16 @@
 /*
 Name: David Posso
-Date Created: 9/16/2018 
-Most recent revision: 9/21/2018
+Date Created: 9/16/2018
+Most recent revision: 9/23/2018
 */
 
 header, footer {
 	text-align: center;
 }
 
-/*article {
-	text-align: center;
-	float: left;
-}*/
-
 
 body {
-	
+
 	margin: 0 auto;
 }
 
@@ -47,7 +42,7 @@ nav a:active {
 
 nav .btn {
 	background-color: #d2f4ce;
-	color: white; 
+	color: white;
 }
 nav {
 	border-top: thin #286122 solid;
@@ -63,4 +58,8 @@ form {
 
 footer{
 	border-top: thin #286122 solid;
+}
+
+h4{
+	color: #ff901f;
 }
